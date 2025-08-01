@@ -1,3 +1,5 @@
+package Assignments;
+
 import java.util.Scanner;
 
 public class UserArray {
@@ -11,7 +13,7 @@ public class UserArray {
             int cols = sc.nextInt();
 
             int[][] array = new int[rows][cols];
-int[][] array2 = new int[rows][cols];
+            int[][] array2 = new int[rows][cols];
 
             // Step 2: Input values into the 2D array
             System.out.println("Enter the elements of the array:");
