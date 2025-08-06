@@ -7,8 +7,8 @@ public class CreditCardPayment extends Payment{
     }
 
     @Override
-    public void processPayment() {
-        super.processPayment();
-        System.out.println("payment done" );
+    public void processPayment(double amount ) {
+        //super.processPayment();
+        System.out.println("payment done ="  +amount);
     }
 }

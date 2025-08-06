@@ -7,8 +7,8 @@ public class PaypalPayment extends Payment{
     }
 
     @Override
-    public void processPayment() {
-        super.processPayment();
-        System.out.println("payment done for Paypal" );
+    public void processPayment(double amount) {
+        //super.processPayment();
+        System.out.println("payment done for Paypal ="  + amount);
     }
 }
