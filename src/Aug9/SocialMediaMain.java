@@ -26,6 +26,17 @@ public class SocialMediaMain {
         instagram.reels();
         instagram.uploadPicture();
         System.out.println("**** End of Instagram******");
+        LinkedIn linkedIn = new LinkedIn();
+        System.out.println("Welcome to Linkedin");
+        linkedIn.jobPosting();
+        linkedIn.professionalUserProfile();
+        System.out.println("end of Linkedin");
+
+        Twitter twitter = new Twitter();
+        System.out.println("Twitter famous for tweets");
+        twitter.tweets();
+        System.out.println("End of Twitter");
+
 
     }
 }
